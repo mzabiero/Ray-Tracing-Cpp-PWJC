@@ -21,4 +21,4 @@ To generate the image file, you must run the compiled executable and redirect it
 ./bin/x64/Debug/Ray_Tracing > image.ppm 
 ```
 To see the output image on Linux use `eog` or `feh`, and on Windows the best way is to convert *.ppm* file to png by some online tool
-
+![Generated Image](/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/image.png)
