@@ -1,0 +1,4 @@
+bin
+obj
+Makefile
+Ray_Tracing.make
