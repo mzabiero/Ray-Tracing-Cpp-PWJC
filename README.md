@@ -22,6 +22,4 @@ To generate the image file, you must run the compiled executable and redirect it
 ```
 To see the output image on Linux use `eog` or `feh`, and on Windows the best way is to convert *.ppm* file to png by some online tool
 
-<center> 
-  <![Generated Image](image.png)> 
-</center>
+![Generated Image](image.png)
