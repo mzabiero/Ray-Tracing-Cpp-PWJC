@@ -1,6 +1,11 @@
-class Scene:
 {
-    color: red
-
-    class Sphere:
+    "scene": {
+        "backgroundColor": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.5
+        },
+        "resX": 256,
+        "resY": 256
+    }
 }

@@ -11,8 +11,11 @@ int main() {
     scene.color;
     Sphere sphere1 = data.sphere;
 
+    
 
-    Renderer::Render(resX, resY, scene.color);
+    Renderer::Render(Scene &scene);
+
+
     createImage();
 
 
