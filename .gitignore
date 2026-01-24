@@ -2,3 +2,5 @@ bin
 obj
 Makefile
 Ray_Tracing.make
+image.ppm
+

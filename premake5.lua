@@ -47,7 +47,11 @@ project "Ray_Tracing"
     -- Pliki źródłowe
     files {
         "Src/main.cpp",
+<<<<<<< HEAD
         "Src/Renderer.cpp"
+=======
+        "Src/Scene.cpp"
+>>>>>>> dd2de83983bd78d660196fd8f0f5313aa34ed728
     }
 
     -- 7. Ustawienia dla kompilatorów GCC/Clang na Linuksie i macOS
