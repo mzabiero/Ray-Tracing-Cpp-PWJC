@@ -32,15 +32,19 @@ int main() {
     auto g = scene.g;
     auto b = scene.b;
 
+
+    Renderer renderer(scene);
+    renderer.render();
+
     // Render
 
-    std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
+  //  std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 
-    for (int j = 0; j < image_height; ++j) {
-        std::clog << "\rScanlines remaining: " << (image_height - j) << ' ' << std::flush;
-        for (int i = 0; i < image_width; i++) {
-            std::cout << r << ' ' << g << ' ' << b << '\n';
-        }
-    }
-    std::clog << "\rDone.                 \n";
+   // for (int j = 0; j < image_height; ++j) {
+     //   std::clog << "\rScanlines remaining: " << (image_height - j) << ' ' << std::flush;
+     //   for (int i = 0; i < image_width; i++) {
+     //       std::cout << r << ' ' << g << ' ' << b << '\n';
+     //   }
+    //}
+   // std::clog << "\rDone.                 \n";
 }
