@@ -1,0 +1,6 @@
+class Scene:
+{
+    color: red
+
+    class Sphere:
+}
