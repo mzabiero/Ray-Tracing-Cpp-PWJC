@@ -24,13 +24,13 @@ int main() {
     */
 
     Scene scene = readConfig("config.json");
-    
+
 
     int image_width = scene.resX;
     int image_height = scene.resY;
-    auto r = scene.r;
-    auto g = scene.g;
-    auto b = scene.b;
+    auto r = scene.backgroundColor.r;
+    auto g = scene.backgroundColor.g;
+    auto b = scene.backgroundColor.b;
 
 
     Renderer renderer(scene);

@@ -1,17 +1,23 @@
 #pragma once
 #include "nlohmann/json.hpp"
+#include "Color.hpp"
+#include "Sphere.hpp"
 
 class Scene
 {
 public:
-    Scene() : r(0), g(0), b(0), resX(0), resY(0) {}
+    Scene() : backgroundColor(), resX(0), resY(0) {}
 
-    Scene(int r, int g, int b, int resX, int resY)
-        : r(r), g(g), b(b), resX(resX), resY(resY) {}
+    Scene(Color backgroundColor, int resX, int resY)
+        : backgroundColor(backgroundColor), resX(resX), resY(resY) {}
     
-    int r, g, b;
+    void addShape(Sphere &shape);
+
+    Color backgroundColor;
     int resX, resY;
+    
 private:
+    std::vector<Sphere> m_spheres;
 
 };
 
