@@ -1,6 +1,7 @@
-#include "Scene.hpp"
+#include "../include/Scene.hpp"
 
-void Scene::addShape(Sphere &shape)
-{
-    m_spheres.push_back(shape);
-}
+
+// void Scene::addShape(Sphere &shape)
+// {
+//     m_spheres.push_back(shape);
+// }

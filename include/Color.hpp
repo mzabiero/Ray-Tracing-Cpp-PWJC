@@ -9,3 +9,5 @@ struct Color
     Color(int r, int g, int b) 
         : r(r), g(g), b(b) {}
 };
+
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Color, r, g, b);

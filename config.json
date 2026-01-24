@@ -1,15 +1,18 @@
 {
-    "r": 100,
-    "g": 150,
-    "b": 255,
-    "resX": 1920,
-    "resY": 1080,
-    "sphere": {
-        "origin": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -5.0
-        },
-        "diameter": 2.0
-    }
+    "scene": {
+        "backgroundColor": { "r": 0, "g": 0, "b": 0 },
+        "spheres": [
+            {
+                "diameter": 1.0,
+                "origin": { "x": 5.0, "y": 1.0, "z": -3.0 },
+                "color": { "r": 255, "g": 0, "b": 0 }
+            },
+            {
+                "diameter": 2.0,
+                "origin": { "x": 2.0, "y": 1.0, "z": -8.0 },
+                "color": { "r": 0, "g": 0, "b": 255 }
+            }
+        ]
+    },
+    "viewport": { "resX": 400, "resY": 225 }
 }

@@ -6,10 +6,10 @@ workspace "Ray_Tracing_PWJC"
     -- Ustawienia globalne dla wszystkich projektów
     configurations { "Debug", "Release" }
     startproject "Ray_Tracing"
-    platforms { "x32" }
+    platforms { "x64" }
 
     -- Ustawienia domyślne dla wszystkich platform
-    architecture "x32"
+    architecture "x64"
     language "C++"
     cppdialect "C++17"
     buildoptions { "-Wall", "-Wextra" }
@@ -47,11 +47,10 @@ project "Ray_Tracing"
     -- Pliki źródłowe
     files {
         "Src/main.cpp",
-<<<<<<< HEAD
-        "Src/Renderer.cpp"
-=======
-        "Src/Scene.cpp"
->>>>>>> dd2de83983bd78d660196fd8f0f5313aa34ed728
+        "Src/Ray.cpp",
+        "Src/Renderer.cpp",
+        "Src/Scene.cpp",
+        "Src/Sphere.cpp"
     }
 
     -- 7. Ustawienia dla kompilatorów GCC/Clang na Linuksie i macOS

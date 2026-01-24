@@ -6,19 +6,17 @@
 class Scene
 {
 public:
-    Scene() : backgroundColor(), resX(0), resY(0) {}
+    Scene() : backgroundColor() {}
 
-    Scene(Color backgroundColor, int resX, int resY)
-        : backgroundColor(backgroundColor), resX(resX), resY(resY) {}
+    Scene(Color backgroundColor)
+        : backgroundColor(backgroundColor) {}
     
-    void addShape(Sphere &shape);
+    // Sphere& getSphere() ;
+    // void addShape(Sphere &shape);
 
     Color backgroundColor;
-    int resX, resY;
-    
+    std::vector<Sphere> spheres;
 private:
-    std::vector<Sphere> m_spheres;
-
 };
 
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Scene, r, g, b, resX, resY);
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Scene, backgroundColor, spheres);
