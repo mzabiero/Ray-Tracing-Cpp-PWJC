@@ -2,7 +2,7 @@
 #include "../include/nlohmann/json.hpp"
 #include "../include/readConfig.hpp"
 #include "../include/Scene.hpp"
-
+#include "../include/Renderer.hpp"
 
 int main() {
 

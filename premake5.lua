@@ -6,10 +6,10 @@ workspace "Ray_Tracing_PWJC"
     -- Ustawienia globalne dla wszystkich projektów
     configurations { "Debug", "Release" }
     startproject "Ray_Tracing"
-    platforms { "x64" }
+    platforms { "x32" }
 
     -- Ustawienia domyślne dla wszystkich platform
-    architecture "x64"
+    architecture "x32"
     language "C++"
     cppdialect "C++17"
     buildoptions { "-Wall", "-Wextra" }
