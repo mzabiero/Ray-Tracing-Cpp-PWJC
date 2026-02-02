@@ -1,6 +1,5 @@
 #include "../include/Sphere.hpp"
 
-
 bool Sphere::hit(const Ray& r) const {
     Point3 oc = r.origin - origin; 
     

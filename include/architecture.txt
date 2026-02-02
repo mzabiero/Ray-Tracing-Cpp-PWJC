@@ -1,0 +1,27 @@
+Ray
+{
+    Point3 origin
+    Vec3 direction
+    Color color (r,g,b)
+
+    Ray(origin, direction, color)
+}
+
+render(resX, resY, camera, shape, light)
+{
+    for(resX)
+    {
+        for(resY)
+        {
+            Ray r(camera.origin, (camera.focalLen, resX,resY), 0)
+            if(shape.hit(r))
+            {
+                r.setColor(shape.color)
+                R new_r(shape.origin, r.at(shape.hit(r)), r.color)
+                ...
+            }
+
+        }
+    }
+
+}

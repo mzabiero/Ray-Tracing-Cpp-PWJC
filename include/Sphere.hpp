@@ -15,9 +15,6 @@ public:
     float diameter;
     Point3 origin;
     Color color;
-
-private:
-
 };
 
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Sphere, diameter, origin, color);

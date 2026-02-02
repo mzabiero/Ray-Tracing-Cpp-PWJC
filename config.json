@@ -14,5 +14,5 @@
             }
         ]
     },
-    "viewport": { "resX": 400, "resY": 225 }
-}
+    "viewport": { "resX": 2000, "resY": 1000 }
+} 
