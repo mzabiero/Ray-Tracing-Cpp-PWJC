@@ -209,4 +209,5 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: \
  /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/hittable_list.hpp \
  /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/sphere.hpp \
  /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/camera.hpp \
+ /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/material.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/omp.h

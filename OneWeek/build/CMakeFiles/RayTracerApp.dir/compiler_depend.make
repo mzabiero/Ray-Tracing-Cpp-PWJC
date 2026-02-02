@@ -7,6 +7,7 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
   /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/hittable.hpp \
   /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/hittable_list.hpp \
   /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/interval.hpp \
+  /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/material.hpp \
   /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/ray.hpp \
   /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/sphere.hpp \
   /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/utility.hpp \
@@ -396,15 +397,7 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 
 /usr/include/c++/13/string_view:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/range_access.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/stdexcept:
+/usr/include/c++/13/string:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -488,6 +481,8 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
+/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Src/main.cpp:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/bits/predefined_ops.h:
@@ -508,9 +503,9 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 
 /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/ray.hpp:
 
-/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Src/main.cpp:
-
 /usr/include/c++/13/backward/auto_ptr.h:
+
+/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/interval.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -528,25 +523,21 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 
 /usr/include/alloca.h:
 
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
 /usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
 
 /home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/sphere.hpp:
 
-/usr/include/c++/13/string:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bit:
-
-/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/interval.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -555,6 +546,8 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 /usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/c++/13/ios:
+
+/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc/material.hpp:
 
 /usr/include/c++/13/bits/concept_check.h:
 
@@ -595,6 +588,16 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/c++/13/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/stdexcept:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -672,9 +675,9 @@ CMakeFiles/RayTracerApp.dir/Src/main.cpp.o: /home/mzabiero/Documents/studia/PWJC
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/13/bits/new_allocator.h:
-
 /usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
