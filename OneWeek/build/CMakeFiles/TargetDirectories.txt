@@ -1,3 +1,0 @@
-/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/build/CMakeFiles/RayTracerApp.dir
-/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/build/CMakeFiles/edit_cache.dir
-/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/build/CMakeFiles/rebuild_cache.dir
