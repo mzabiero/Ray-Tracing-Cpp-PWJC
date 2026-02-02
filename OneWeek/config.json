@@ -1,0 +1,28 @@
+{
+    "camera": {
+        "aspect_ratio": 1.77777777778,
+        "image_width": 1000,
+        "samples_per_pixel": 10,
+        "max_depth": 10
+    },
+    "world": [
+        {
+            "type": "sphere",
+            "center": [0.0, -100.5, -1.0],
+            "radius": 100.0,
+            "material": { "type": "lambertian", "color": [0.0, 0.0, 0.0] }
+        },
+        {
+            "type": "sphere",
+            "center": [0.0, 0.0, -1.2],
+            "radius": 0.5,
+            "material": { "type": "metal", "color": [1.0, 1.0, 0.0], "fuzz": 1 }
+        },
+        {
+            "type": "sphere",
+            "center": [-1.0, 0.0, -1.0],
+            "radius": 0.5,
+            "material": { "type": "metal", "color": [0.5, 1.0, 1.0], "fuzz": 0.5 }
+        }
+    ]
+}

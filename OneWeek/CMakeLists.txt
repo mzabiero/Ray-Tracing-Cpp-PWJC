@@ -17,5 +17,6 @@ add_executable(RayTracerApp ${SOURCES})
 
 # 5. Includes
 target_include_directories(RayTracerApp PRIVATE 
-    Inc            
+    Inc     
+    nlohmann       
 )

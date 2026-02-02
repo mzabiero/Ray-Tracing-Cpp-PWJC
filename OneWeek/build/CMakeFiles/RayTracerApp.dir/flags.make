@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc
+CXX_INCLUDES = -I/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/Inc -I/home/mzabiero/Documents/studia/PWJC/Ray-Tracing-Cpp-PWJC/OneWeek/nlohmann
 
 CXX_FLAGS = -std=gnu++17
 
