@@ -2,6 +2,7 @@
 
 #include "ray.hpp"
 #include "utility.hpp"
+#include "interval.hpp"
 
 class material;
 
